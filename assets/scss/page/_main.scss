@@ -1123,6 +1123,9 @@
     text-indent: 2em;
     line-height: 1.9;
     word-break: keep-all;
+    @include mobile {
+      width: 100%;
+    }
   }
   &__link {
     font-size: clamp(12px, 0.73vw, 14px);

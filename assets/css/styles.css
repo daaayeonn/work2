@@ -125,7 +125,7 @@ body {
 }
 .headline__split--text {
   display: block;
-  line-height: 0.8;
+  line-height: 1;
 }
 .headline__split--under {
   position: absolute;
@@ -2363,6 +2363,11 @@ body {
   text-indent: 2em;
   line-height: 1.9;
   word-break: keep-all;
+}
+@media (max-width: 767px) {
+  .sound__desc {
+    width: 100%;
+  }
 }
 .sound__link {
   font-size: clamp(12px, 0.73vw, 14px);
