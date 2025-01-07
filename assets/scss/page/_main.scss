@@ -512,7 +512,6 @@
           width: 33.4vw;
           margin-bottom: 3.4vw;
           font-size: 14px;
-          text-indent: 2em;
           line-height: 1.9;
           letter-spacing: -0.05vw;
           word-break: keep-all;
@@ -944,7 +943,6 @@
     &--sm {
       width: 31.3vw;
       font-size: clamp(12px, 0.73vw, 14px);
-      text-indent: 2em;
       line-height: 1.9;
       letter-spacing: -0.05vw;
       word-break: keep-all;
@@ -1120,7 +1118,6 @@
     width: 31vw;
     margin-bottom: 2.19vw;
     font-size: clamp(12px, 0.73vw, 14px);
-    text-indent: 2em;
     line-height: 1.9;
     word-break: keep-all;
     @include mobile {
