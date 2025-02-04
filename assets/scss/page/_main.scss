@@ -201,12 +201,10 @@
       }
     }
     &--big {
-     font-size: 22px;
-    line-height: 1.6;
-    letter-spacing: -1px;
-      @include tablet {
-        font-size: 18px;
-      }
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.6;
+      letter-spacing: -1px;
       @include mobile {
         font-size: 16px;
       }
@@ -737,6 +735,7 @@
   }
   &__split {
     &--wrap {
+      display: block;
       position: relative;
       transform: translateY(100%);
     }
@@ -764,6 +763,7 @@
     height: clamp(100px, 8vw, 154px);
     border-radius: 0.42vw;
     border: 1px solid #f8f8f8;
+    background: rgba($color: #fff, $alpha: 0.2);
     flex: 1;
     scale: 0;
     @include mobile {
@@ -777,6 +777,7 @@
   &__keyword {
     font-size: clamp(12px, 0.83vw, 16px);
     line-height: 1.5;
+    text-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
     @include mobile {
       line-height: 1.2;
     }

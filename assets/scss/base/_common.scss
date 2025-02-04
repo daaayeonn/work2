@@ -51,10 +51,12 @@ body {
     margin-bottom: 8.79vw;
   }
   &__text {
+    display: block;
     transform: translateY(100%);
   }
   &__split {
     &--wrap {
+      display: block;
       position: relative;
       transform: translateY(100%);
     }
